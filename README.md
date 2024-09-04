@@ -1,4 +1,4 @@
-# OrangeHRM-Website-Automation-with-Selenium-TestNG
+# Web-Automation-on-WallTouchBd-Website-with-Selenium-TestNG
 
 ## Video Output:
 
