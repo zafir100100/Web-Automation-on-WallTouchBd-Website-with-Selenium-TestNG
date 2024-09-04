@@ -5,12 +5,12 @@
 https://github.com/user-attachments/assets/cfd9d402-d193-40c3-9ca2-84949b3c7f60
 
 ## Scenario
-1. Visit the site: https://opensource-demo.orangehrmlive.com/ 
-2. Do log-in with invalid credential
-3. Do log-in with valid credential
-4. Go to dashboard page
-5. Scroll down to bottom
-6. Assert the OS version
+1. Visit the site: https://www.walltouchbd.com/
+2. Do log-in with valid credential
+4. Type "toys." in search bar
+5. Click search button
+6. Select the first search result
+7. Validate the search resut data in product details page
 
 ## Technology and Tool Used
 - Selenium Webdriver
