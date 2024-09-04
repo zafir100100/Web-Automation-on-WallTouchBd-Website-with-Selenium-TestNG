@@ -24,21 +24,8 @@ public class Setup {
         config = AppConfigLoader.getConfig();
         WebDriverManager.firefoxdriver().setup();
         driver=new FirefoxDriver();
-//        driver.manage().window().maximize();
-        driver.manage().window().setSize(new Dimension(1920, 1080)); // Set the window size directly
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-    }
-    @AfterMethod
-    public void screenShot(ITestResult result) throws IOException {
-        if (ITestResult.FAILURE == result.getStatus()) {
-            try {
-                Utils.takeScreenshot(driver);
-            } catch (Exception exception) {
-                System.out.println(exception.toString());
-            }
-
-        }
-
     }
     @AfterTest
     public void quitBrowser(){
